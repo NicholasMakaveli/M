@@ -110,4 +110,8 @@
   width: 550px;
   height: 550px;
 }
+
+.Character{
+  cursor: pointer;
+}
     /* Optional: Keeps a retro look */
