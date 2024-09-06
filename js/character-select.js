@@ -39,8 +39,3 @@ for (let i = startFrame; i < startFrame + totalFrames; i++)
 // Event listener for triggering Jin's idle animation
 document.querySelector('#JinSelect').addEventListener('click', jinSelectIdle);
 
-
-
-
-// animate function here
-    // 
