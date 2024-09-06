@@ -104,11 +104,10 @@
     padding-bottom: 100px;
 }
 
-#character{
-    height: 450px;
-    width: 450px;
-    border: 2px solid white;
-    background-image: url(/assets/Jin.Idle.Animation/Jin_0036.png);
+
+#characterSelectAnimation{
+  border: 2px solid white;
+  width: 550px;
+  height: 550px;
 }
-    
     /* Optional: Keeps a retro look */
