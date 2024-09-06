@@ -1,0 +1,61 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  body, html{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    height: 100%;
+    background-image: url(/assets/stage-selectBG.png);
+    background-color: #11219D;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #Stage-1{
+    height: 160px;
+    margin: 300px 35px 0px 800px;
+    border-radius: 7px;
+    box-shadow: 1px 6px 34px 8px rgba(0,0,0,1);
+  }
+  
+  #Stage-2{
+    position: relative;
+    left: 1100px;
+    bottom: 160px;
+    border-radius: 7px;
+    box-shadow: 1px 6px 34px 8px rgba(0,0,0,1);
+  }
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
